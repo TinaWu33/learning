@@ -1,7 +1,7 @@
 task.1, 了解数据范围
-    int:
-    unsigned int:
-    long long:
-    unsigned long long:
-    float(精度):
-    double(精度):
+    int: -2147483648 ~ 2147483647 （-2^31 ~ 2^31-1,4字节）
+    unsigned int: 0 ~ 4294967295
+    long long: -9223372036854775808 ~ 9223372036854775807
+    unsigned long long: 18446744073709551615
+    float(精度): -2^128 ~ 2^128 （6位有效数字）
+    double(精度): -2^1024 ~ 2^1024 （15 ~ 16位有效数字）
